@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alexander Sokolov's Blog]]></title>
-  <link href="http://SashkaCosmonaut.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Книга | Alexander Sokolov's Blog]]></title>
+  <link href="http://SashkaCosmonaut.github.io/blog/categories/knigha/atom.xml" rel="self"/>
   <link href="http://SashkaCosmonaut.github.io/"/>
   <updated>2013-12-07T23:43:24+04:00</updated>
   <id>http://SashkaCosmonaut.github.io/</id>
@@ -45,51 +45,6 @@
 <p>Воспоминания восстанавливались от более ранних к более поздним, постепенно, одно за другим всплывая в сознании. С каждой новой волной картинок, речей, ощущений, пережитых Алексеем за последние дни, ему становилось то радостно, то грустно. Эмоции уже начинали переполнять его сознание. Но самым неприятным было то, что с каждым новым всплывшим воспоминанием молодому человеку становилось все более одиноко. Его спина вспотела от внезапного волнения, по телу прошелся холодок. В какой-то момент у него даже защемило в носу и глаза покрылись тонким слоем влаги, но парень быстро согнал эти чуждые ему ощущения. А появились они неспроста. Ведь совсем недавно, несколько мгновений назад, он совершенно точно сидел здесь не один!</p>
 
 <p>Наконец, воспоминания собрались в единую картину, как решенный после долгих стараний пазл. Свое начало, они берут с того момента, как Алексей встретил Лену. Хотя нет, тогда его жизнь круто изменилась, но все же, исток у этого круговорота последних событий находится тогда, когда Алексей решил поехать работать в этот южный поселок на берегу Черного моря. Когда решил связать свою работу с одним из самых загадочных и удивительных изобретений последних лет, которое, пожалуй, ненароком стало причиной всего того, что ему пришлось пережить за последний год.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Русский язык в Octopress на Windows]]></title>
-    <link href="http://SashkaCosmonaut.github.io/blog/2013/12/07/localization/"/>
-    <updated>2013-12-07T20:48:49+04:00</updated>
-    <id>http://SashkaCosmonaut.github.io/blog/2013/12/07/localization</id>
-    <content type="html"><![CDATA[<p>Приветствую! Хотел бы поделиться опытом решения проблемы с русским текстом в записях блога, с которой можно столкнуться в начале работы с Octopress на Windows.</p>
-
-<!-- more -->
-
-
-<h2>Суть проблемы</h2>
-
-<p>После установки <a href="http://octopress.org/">Octopress</a> на своем Windows 7, развертывания своего блога на <a href="https://github.com/">GitHub</a>, и создания первой записи, содержащей культовое сообщение &ldquo;Hello, World!&rdquo;, моей радости не было предела, однако она очень быстро улетучилась после того, как я попробовал создать запись в блоге с русской версией известного сообщения, а именно: &ldquo;Привет, Мир!&rdquo;.</p>
-
-<p>Все дело в том, что после создания записи с русским текстом и вызова команды:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
-
-
-<p>я получил сообщение об ошибке, нечто вроде:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'> Liquid Exception incompatible character encodings: UTF-8 and IBM866 in post windows</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Решение</h2>
-
-<p>В общем, стало ясно, что создавать записи на русском языке в блоге так просто не получится. Проведя пару часов в Google и перепробовав множество различных способов решения данной проблемы, которые к успеху не приводили, я, наконец, справился с этой проблемой благодаря записи в блоге некоего Tao &ndash; <a href="http://www.qstata.com/blog/2013/06/20/rake-generate-utf-8-errors-on-windows/">Rake Generate: UTF-8 Errors on Windows</a>, за что огромнейшее ему спасибо и желаю больших успехов! (Thank you very much, Tao!)</p>
-
-<p>В общем, все, кто столкнулся со схожей проблемой, попробуйте данный способ ее решения.</p>
-
-<blockquote><p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Привет, Мир!]]></title>
-    <link href="http://SashkaCosmonaut.github.io/blog/2013/12/07/test/"/>
-    <updated>2013-12-07T13:42:32+04:00</updated>
-    <id>http://SashkaCosmonaut.github.io/blog/2013/12/07/test</id>
-    <content type="html"><![CDATA[<p>Привет, Мир!</p>
 ]]></content>
   </entry>
   
