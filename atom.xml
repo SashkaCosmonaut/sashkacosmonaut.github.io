@@ -4,7 +4,7 @@
   <title><![CDATA[Alexander Sokolov's Blog]]></title>
   <link href="http://SashkaCosmonaut.github.io/atom.xml" rel="self"/>
   <link href="http://SashkaCosmonaut.github.io/"/>
-  <updated>2013-12-07T12:42:00+04:00</updated>
+  <updated>2013-12-07T13:44:00+04:00</updated>
   <id>http://SashkaCosmonaut.github.io/</id>
   <author>
     <name><![CDATA[Alexander "SashkaCosmonaut" Sokolov]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Привет, Мир!]]></title>
+    <link href="http://SashkaCosmonaut.github.io/blog/2013/12/07/test/"/>
+    <updated>2013-12-07T13:42:32+04:00</updated>
+    <id>http://SashkaCosmonaut.github.io/blog/2013/12/07/test</id>
+    <content type="html"><![CDATA[<p>Привет, Мир!</p>
+]]></content>
+  </entry>
   
 </feed>
