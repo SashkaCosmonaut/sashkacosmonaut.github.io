@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alexander Sokolov's Blog]]></title>
-  <link href="http://SashkaCosmonaut.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: UTF-8 | Alexander Sokolov's Blog]]></title>
+  <link href="http://SashkaCosmonaut.github.io/blog/categories/utf-8/atom.xml" rel="self"/>
   <link href="http://SashkaCosmonaut.github.io/"/>
   <updated>2013-12-07T21:40:57+04:00</updated>
   <id>http://SashkaCosmonaut.github.io/</id>
@@ -24,17 +24,14 @@
 
 <p>После установки <a href="http://octopress.org/">Octopress</a> на своем Windows 7, развертывания своего блога на <a href="https://github.com/">GitHub</a>, и создания первой записи, содержащей культовое сообщение &ldquo;Hello, World!&rdquo;, моей радости не было предела, однако она очень быстро улетучилась после того, как я попробовал создать запись в блоге с русской версией известного сообщения, а именно: &ldquo;Привет, Мир!&rdquo;.</p>
 
-<p>Все дело в том, что после создания записи с русским текстом и вызова команды:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
-
-
-<p>я получил сообщение об ошибке, нечто вроде:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'> Liquid Exception incompatible character encodings: UTF-8 and IBM866 in post windows</span></code></pre></td></tr></table></div></figure>
-
+<p>Все дело в том, что после создания записи с русским текстом и вызова команды:
+<code>
+rake generate
+</code>
+я получил сообщение об ошибке, нечто вроде:
+<code>
+ Liquid Exception incompatible character encodings: UTF-8 and IBM866 in post windows
+</code></p>
 
 <h2>Решение</h2>
 
@@ -43,15 +40,6 @@
 <p>В общем, все, кто столкнулся со схожей проблемой, попробуйте данный способ ее решения.</p>
 
 <blockquote><p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Привет, Мир!]]></title>
-    <link href="http://SashkaCosmonaut.github.io/blog/2013/12/07/test/"/>
-    <updated>2013-12-07T13:42:32+04:00</updated>
-    <id>http://SashkaCosmonaut.github.io/blog/2013/12/07/test</id>
-    <content type="html"><![CDATA[<p>Привет, Мир!</p>
 ]]></content>
   </entry>
   
