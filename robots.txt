@@ -1,5 +1,5 @@
 # test comment
-User-agent: *
-Disallow: 
+# User-agent: *
+# Disallow: 
 
 Sitemap: http://SashkaCosmonaut.github.io/sitemap.xml 
